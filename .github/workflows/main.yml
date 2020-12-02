@@ -1,13 +1,12 @@
-
 name: CI/CD
 
 on:
   push:
     branches:
-      - master
+      - staging
   pull_request:
     branches:
-      - master
+      - staging
 
 jobs:
   buildAndTest:
@@ -92,4 +91,3 @@ jobs:
            --deployment-group-name ${{ matrix.deploy-group }} \
            --file-exists-behavior OVERWRITE \
            --s3-location bucket=${{ matrix.s3-bucket }},key=${{ matrix.s3-filename }}.zip,bundleType=zip \
-view rawci-cd.yml hosted with ❤ by GitHub
