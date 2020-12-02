@@ -1,0 +1,19 @@
+{
+  "name": "rebound-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojtabafazeli/Rebound-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojtabafazeli/Rebound-Game/issues"
+  },
+  "homepage": "https://github.com/mojtabafazeli/Rebound-Game#readme"
+}
