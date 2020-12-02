@@ -56,8 +56,6 @@ jobs:
       # Install project dependencies and build
       - name: Install dependencies
         run: npm init
-      - name: Install npm
-        run: npm install
       - name: Run build
         run: npm run build
 
