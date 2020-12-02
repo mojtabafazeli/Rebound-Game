@@ -38,10 +38,10 @@ jobs:
       matrix:
         python-version: [3.8]
         node-version: ['12.x']
-        appname: ['aws-codedeploy']
+        appname: ['rebound-game']
         deploy-group: ['staging']
-        s3-bucket: ['aws-codedeploy-deployments']
-        s3-filename: ['staging-aws-codedeploy-${{ github.sha }}']
+        s3-bucket: ['rebound-game']
+        s3-filename: ['rebound-game-${{ github.sha }}']
 
     needs: buildAndTest
     steps:
