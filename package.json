@@ -5,7 +5,7 @@
   "main": "ecosystem.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx serve -s build -l 3000 -n"
+    "build": "npx http-server -p 3000"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,5 @@
   "bugs": {
     "url": "https://github.com/mojtabafazeli/Rebound-Game/issues"
   },
-  "homepage": "https://github.com/mojtabafazeli/Rebound-Game#readme"
+  "homepage": "."
 }
