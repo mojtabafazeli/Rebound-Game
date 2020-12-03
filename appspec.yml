@@ -15,4 +15,4 @@ hooks:
   ApplicationStart:
     - location: scripts/reload-pm2.sh
       timeout: 3000
-      runas: root
+      runas: ubuntu
